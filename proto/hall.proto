@@ -3,9 +3,9 @@ syntax = "proto3";
 package hall.v1;
 
 service HallService {
-  rpc CreateHall (CreateHallRequest) returns (CreateHallsResponse);
+  rpc CreateHall (CreateHallRequest) returns (CreateHallResponse);
 
-  rpc GetHall (GetHallRequest) returns (GetHallsResponse);
+  rpc GetHall (GetHallRequest) returns (GetHallResponse);
   rpc ListHallsByTheater (ListHallsRequest) returns (ListHallsResponse);
 }
 
