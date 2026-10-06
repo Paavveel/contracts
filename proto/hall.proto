@@ -15,7 +15,7 @@ message CreateHallRequest {
   repeated RowLayout layout = 3;
 }
 
-message CreateHallsResponse {
+message CreateHallResponse {
   Hall hall = 1;
 }
 
@@ -23,7 +23,7 @@ message GetHallRequest {
   string theaterId = 1;
 }
 
-message GetHallsResponse {
+message GetHallResponse {
   Hall hall = 1;
 }
 
