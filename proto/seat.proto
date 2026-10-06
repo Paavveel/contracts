@@ -3,7 +3,7 @@ syntax = "proto3";
 package seat.v1;
 
 service SeatService {
-  rpc GetSeat (GetSeatRequest) returns (GetSeatsResponse);
+  rpc GetSeat (GetSeatRequest) returns (GetSeatResponse);
   rpc ListSeatsByHall (ListSeatsRequest) returns (ListSeatsResponse);
 }
 
@@ -11,7 +11,7 @@ message GetSeatRequest {
   string id = 1;
 }
 
-message GetSeatsResponse {
+message GetSeatResponse {
   Seat seat = 1;
 }
 
