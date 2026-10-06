@@ -20,7 +20,7 @@ message CreateHallsResponse {
 }
 
 message GetHallRequest {
-  string id = 1;
+  string theaterId = 1;
 }
 
 message GetHallsResponse {
@@ -32,7 +32,7 @@ message ListHallsRequest {
 }
 
 message ListHallsResponse {
-  repeated Hall hall = 1;
+  repeated Hall halls = 1;
 }
 
 message Hall {
