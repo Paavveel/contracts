@@ -20,7 +20,7 @@ message CreateHallResponse {
 }
 
 message GetHallRequest {
-  string theaterId = 1;
+  string id = 1;
 }
 
 message GetHallResponse {
